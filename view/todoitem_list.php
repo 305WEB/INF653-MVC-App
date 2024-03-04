@@ -67,9 +67,10 @@ include('view/header.php');
             <li class="item-4">
 
                 <span class="Title"><?php echo htmlspecialchars($todoitem['Title']) ?></span>
-                <span class="Description">Category: <?php echo htmlspecialchars($todoitem['categoryName']) ?></span>
              
                 <span class="Description"><?php echo htmlspecialchars($todoitem['Description']) ?></span>
+
+                <span class="Description">Category: <?php echo htmlspecialchars($todoitem['categoryName']) ?></span>
 
              </li>
 
