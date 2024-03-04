@@ -1,0 +1,246 @@
+html {    
+    font-family: sans-serif;
+} 
+header {
+    position: fixed;
+    width: 100%;
+    height: 67px;
+    background: #0f4660;
+    color: #fff;
+
+}
+
+#h1 {
+    margin: 0 0 0 30px;
+    width: 189px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	margin-top: -14px;
+}
+
+ 
+ /*	----------- FLEX -------------*/
+ ul.flg-flex {
+    width: calc(100% - 22px);
+    max-width: 100%;
+    height: auto;
+    padding: 13px 10px;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: 1px solid gray; */
+    border-top: none;
+    margin-top: -14px;
+}
+
+ul.flg-flex-2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 13px 10px;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+
+}
+
+ul.flg-flex li.item-1 {
+	width: 20%;
+	padding-left: 5px;
+}
+ul.flg-flex li.item-2 {
+    width: 50%;
+    /* margin: 0 10px; */
+}
+ul.flg-flex li.item-3 {
+    width: 14%;
+    /* margin: 0 10px; */
+}
+
+ul.flg-flex li.item-4 {
+    width: 78%;
+    /* margin: 0 10px; */
+}
+
+
+
+ul.flg-flex-2 li.item-5 {
+    width: 14%;
+    /* margin: 0 10px; */
+}
+
+ul.flg-flex-2 li.item-6 {
+    padding: 0 3em 0 0;
+}
+
+.error {
+    margin-top: 96px;
+    position: absolute;
+}
+
+.Title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+.Description {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    display: block;
+    margin-top: 5px;
+}
+
+.add_input {
+    width: 100%;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+.add_input-2 {
+    width: 99%;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+/* RIGHT */
+
+ul.flg-flex li.item-5 {
+    width: 237px;
+    /* margin: 0 10px; */
+}
+
+.add_button {
+    width: 87%;
+    height: 67px;
+    margin: 0 auto !important;
+    display: block;
+    margin-top: 8px !important;
+    border-radius: 8px;
+    border: none;
+    margin-left: 5px;
+    background: #0f4660;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,0.1);
+    margin-left: 10px!important;
+}
+
+.delete {
+    border: none;
+    background: #fff;
+    color: red;
+    width: 95%;
+    margin-top: 15px;
+}
+
+.delete-cat {
+    border: none;
+    background: #fff;
+    color: red;
+    width: 95%;
+}
+
+#Add_itemForm {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    background: #fff;
+    box-shadow: 0 -1px 5px 1px rgba(65, 64, 66, 0.15);
+}
+
+#list-wrapper {
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    padding-top: 66px;
+}
+
+#list-items-wrap {
+    margin-top: 25px;
+    margin-bottom: 78px;
+}
+
+#message {
+    margin: 7%;
+}
+
+/* #h1 {
+    margin: 0 auto;
+    width: 126px;
+} */
+
+/* .header-item {
+    margin-top: 14px !important;
+    position: relative;
+} */
+
+.header-item {
+    margin-top: 14px !important;
+    position: relative;
+    left: 0;
+    padding-left: 0 !important;
+    margin-left: -29px;
+    width: 84% !important;
+}
+
+.header-input {
+    min-height: 24px;
+}
+
+.button-W {
+    background: #fff;
+    border: none;
+    padding: 0 10px;
+}
+
+.top-link {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 6px;
+    display: block;
+    letter-spacing: 0.05em;
+}
+/*	---------- MAX WIDTH 568 PX --------------*/
+@media all and (max-width: 568px) {
+   /* #h1 {display: none;} */
+
+   #h1 {
+    margin: 0 0 0 16px;
+    width: 189px;
+    margin-top: 27px;
+    font-size: 1.4rem;
+}
+
+   ul.flg-flex li.item-3 {
+    width: 23%;
+ 
+}
+
+ul.flg-flex li.item-4 {
+    width: 65%;
+
+}
+
+.add_input-2 {
+    width: 99%;
+    margin-top: 8px;
+    padding: 5px 0;
+}
+
+}
